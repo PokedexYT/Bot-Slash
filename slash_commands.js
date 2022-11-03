@@ -9,7 +9,7 @@ for (const file of slashComandos){
     const slash = require(`./Slash Commands/${file}`)
     commands.push(slash.data.toJSON())
 }
-const rest = new REST({ version: "9"}).setToken("MTAyMDEwMDE0NDU1MDY1ODEyOA.GDUQLC.qrxgfi7hm49AmGf4gF-lxaNmnX27vc9jUK-boA")
+const rest = new REST({ version: "9"}).setToken("")
 createSlash()
 async function createSlash(){
     try{
