@@ -18,7 +18,7 @@ async function createSlash(){
                 body: commands
             }
         )
-        console.log("comandos Slash Cargados...".blue)
+        console.log("comandos Slash Cargados...")
     }catch(e){
         console.error(e)
     }
